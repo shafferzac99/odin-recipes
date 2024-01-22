@@ -1,0 +1,13 @@
+.ingredients {
+    background-color: bisque;
+}
+
+ul, ol {
+    background-color: lightblue;
+
+}
+
+h1, h2, img {
+    text-align: center;
+    align-self: center;
+}
