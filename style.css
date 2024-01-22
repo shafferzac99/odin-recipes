@@ -7,7 +7,7 @@ ul, ol {
 
 }
 
-h1, h2, img {
+h1, h2{
     text-align: center;
     align-self: center;
 }
