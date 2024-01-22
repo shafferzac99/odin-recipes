@@ -22,3 +22,11 @@ img{
     margin: auto;
     width: 50%;
 }
+
+a {
+    font-size: 10px;
+}
+
+#back{
+    font-size: 25px;
+}
