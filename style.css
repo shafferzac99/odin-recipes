@@ -9,12 +9,15 @@ ol, p {
 ul,ol{
     background-color: lightblue;
     border: navy dotted 2px;
-    list-style:circle;
     margin: 15px;
+    list-style-position: inside;
 }
 
 ul{
     width: 300px;
+    margin:auto;
+    list-style-type: none;
+    padding: 5px;
 }
 ol{
     padding-left: 30px;
@@ -23,6 +26,11 @@ ol{
 li{
     padding: 5px;
     margin: 3px 3px;
+    font-size: large;
+    font-weight:400;
+    border-top: navy dotted 1px;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 h1, h2{
@@ -55,18 +63,24 @@ a {
 .desc{
     text-align: center;
 }
-.ingredients, .instructions{
+.ingredients, .instructions, #desc{
     background-color: white;
     padding: 5px;
     border: black dotted 2px;
-}
-
-.ingredients{
-    margin-left: auto;
+    margin: 60px 20px;
 }
 
 .instructions{
     margin: 60px 20px;
+}
+
+.desc{
+    font-size: larger;
+    font-weight: 500;
+}
+
+.first{
+    border: none;
 }
 
 #back{
