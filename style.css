@@ -1,11 +1,35 @@
-ul, ol, p {
+body{
+    background-color: antiquewhite;
+}
+
+ol, p {
+    padding: 15px;
+}
+
+ul,ol{
     background-color: lightblue;
+    border: navy dotted 2px;
+    list-style:circle;
+    margin: 15px;
+}
+
+ul{
+    width: 300px;
+}
+ol{
+    padding-left: 30px;
+}
+
+li{
+    padding: 5px;
+    margin: 3px 3px;
 }
 
 h1, h2{
     text-align: center;
     align-self: center;
     font-family: Arial, sans-serif;
+    background-color: none;
 }
 
 h1{
@@ -14,7 +38,6 @@ h1{
 
 h2{
     font-weight: 200;
-    background-color: antiquewhite;
 }
 
 img{
@@ -25,6 +48,25 @@ img{
 
 a {
     font-size: larger;
+}
+.linklist{
+    list-style: none;
+}
+.desc{
+    text-align: center;
+}
+.ingredients, .instructions{
+    background-color: white;
+    padding: 5px;
+    border: black dotted 2px;
+}
+
+.ingredients{
+    margin-left: auto;
+}
+
+.instructions{
+    margin: 60px 20px;
 }
 
 #back{
