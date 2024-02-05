@@ -9,16 +9,18 @@ ol, p {
 ul,ol{
     background-color: lightblue;
     border: navy dotted 2px;
-    margin: 15px;
+    margin: 0px 15px 15px;
     list-style-position: inside;
 }
 
 ul{
     width: 300px;
-    margin:auto;
+    margin-left: auto;
+    margin-right: auto;
     list-style-type: none;
     padding: 5px;
 }
+
 ol{
     padding-left: 30px;
 }
@@ -33,7 +35,7 @@ li{
     padding-right: 1em;
 }
 
-h1, h2{
+h1, h2, p{
     text-align: center;
     align-self: center;
     font-family: Arial, sans-serif;
@@ -57,6 +59,7 @@ img{
 a {
     font-size: larger;
 }
+
 .linklist{
     list-style: none;
 }
