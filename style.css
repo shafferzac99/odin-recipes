@@ -9,7 +9,7 @@ ol, p {
 ul,ol{
     background-color: lightblue;
     border: navy dotted 2px;
-    margin: 0px 15px 15px;
+    margin: 15px;
     list-style-position: inside;
 }
 
@@ -43,7 +43,7 @@ h1, h2, p{
 }
 
 h1{
-    font-weight:400;
+    font-weight:700;
 }
 
 h2{
